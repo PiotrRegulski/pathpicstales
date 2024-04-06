@@ -1,3 +1,4 @@
+import CardWithPath from "@/components/ui/mainpage/CardWithPath";
 import WelcomeCard from "@/components/ui/mainpage/WelcomeCard";
 import Image from "next/image";
 
@@ -5,6 +6,7 @@ export default function Home() {
   return (
     <main>
       <WelcomeCard />
+      <CardWithPath/>
       {/* <div className="flex  justify-between  ">
         {" "}
         <div className="grow-0 h-14 ">

@@ -4,30 +4,30 @@ import { licorice, rowdies } from "../fonts";
 const WelcomeCard = () => {
   return (
     <div
-      className={`${rowdies.className} flex flex-row w w-full bg-gradient-to-r from-lime-500 from-10% via-lime-500 via-30% to-lime-600 to-90%    bg-lime-400  h-2/4 `}
+      className={`${rowdies.className} flex flex-row w w-full bg-gradient-to-r from-lime-700 from-10% via-lime-500 via-30% to-lime-400 to-90%    bg-lime-200  h-2/4 `}
     >
-      <div className="basis-1/2  grid justify-items-end ">
-        <div>1</div>
-        <h2 className="font-bold text-4xl text-left uppercase  text-white tracking-wide ml-24 mt-24">
+      <div className="md:basis-1/2  grid justify-items-end mb-4">
+        <div></div>
+        <h2 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
           Kochasz naturę <br></br>
-          <span className="text-red-600">
-            Aktywność na świeżym powietrzu
+          <span className="text-red-600 ">
+           Aktywność na świeżym powietrzu
           </span>{" "}
           <br></br>
           Chcesz odkrywać nowe miejsca ?
         </h2>
-        <p className=" text-xl text-left uppercase   tracking-wide ml-32 text-red-600">
+        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-red-600 px-6">
           to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
           trasom spacerowym i rowerowym, które czekają na Ciebie w różnych
           zakątkach Polski.
         </p>
         <span
-          className={`${licorice.className} text-xl text-gray-800 md:text-4xl md:leading-normal`}
+          className={`${licorice.className} hidden md:block text-xl text-gray-800 md:text-4xl md:leading-normal`}
         >
           PathPicTales
         </span>
       </div>
-      <div className="basis-1/2 grid justify-items-center py-16 ">
+      <div className="hidden md:basis-1/2 md:grid justify-items-center md:py-16  ">
         <Image
           src="/mainpageimg/kolo.png"
           width={454}
