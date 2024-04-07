@@ -4,19 +4,19 @@ import { licorice, rowdies } from "../fonts";
 const WelcomeCard = () => {
   return (
     <div
-      className={`${rowdies.className} flex flex-row w w-full bg-gradient-to-r from-lime-700 from-10% via-lime-500 via-30% to-lime-400 to-90%    bg-lime-200  h-2/4 `}
+      className={`${rowdies.className} flex flex-row w w-full bg-lime-950  md:bg-gradient-to-b md:from-lime-950 md:to-lime-600      h-2/4 `}
     >
       <div className="md:basis-1/2  grid justify-items-end mb-4">
         <div></div>
         <h2 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
           Kochasz naturę <br></br>
-          <span className="text-red-600 ">
+          <span className="text-amber-500 ">
            Aktywność na świeżym powietrzu
           </span>{" "}
           <br></br>
           Chcesz odkrywać nowe miejsca ?
         </h2>
-        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-red-600 px-6">
+        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-amber-500 px-6">
           to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
           trasom spacerowym i rowerowym, które czekają na Ciebie w różnych
           zakątkach Polski.
