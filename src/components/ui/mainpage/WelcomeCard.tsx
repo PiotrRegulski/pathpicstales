@@ -8,21 +8,21 @@ const WelcomeCard = () => {
     >
       <div className="md:basis-1/2  grid justify-items-end ">
         <div></div>
-        <h2 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
+        <h1 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
           Kochasz naturę <br></br>
-          <span className="text-amber-500 ">
+          <span className="text-primary ">
            Aktywność na świeżym powietrzu
           </span>{" "}
           <br></br>
           Chcesz odkrywać nowe miejsca ?
-        </h2>
-        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-amber-500 px-6">
+        </h1>
+        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-primary px-6">
           to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
           trasom spacerowym i rowerowym, które czekają na Ciebie w różnych
           zakątkach Polski.
         </p>
         <span
-          className={`${licorice.className} hidden md:block text-xl text-gray-800 md:text-4xl md:leading-normal`}
+          className={`${licorice.className} hidden md:block text-xl  md:text-4xl md:leading-normal text-white`}
         >
           PathPicsTales
         </span>
