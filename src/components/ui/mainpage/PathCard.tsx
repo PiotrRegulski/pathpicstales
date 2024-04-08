@@ -7,7 +7,7 @@ interface PathCardProps {
 
 const PathCard: React.FC<PathCardProps> = (props) => {
     return (
-        <div>
+        <div className='flex flex-row'>
             <div>{props.image}</div>
             <div><p>{props.date}</p></div>
             <div><p>{props.description}</p></div>

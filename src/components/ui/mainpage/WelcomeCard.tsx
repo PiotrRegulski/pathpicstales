@@ -6,7 +6,7 @@ const WelcomeCard = () => {
     <div
       className={`${rowdies.className} flex flex-row w w-full bg-lime-950  md:bg-gradient-to-b md:from-lime-950 md:to-lime-600      h-2/4 `}
     >
-      <div className="md:basis-1/2  grid justify-items-end mb-4">
+      <div className="md:basis-1/2  grid justify-items-end ">
         <div></div>
         <h2 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
           Kochasz naturę <br></br>
@@ -24,7 +24,7 @@ const WelcomeCard = () => {
         <span
           className={`${licorice.className} hidden md:block text-xl text-gray-800 md:text-4xl md:leading-normal`}
         >
-          PathPicTales
+          PathPicsTales
         </span>
       </div>
       <div className="hidden md:basis-1/2 md:grid justify-items-center md:py-16  ">
@@ -34,6 +34,7 @@ const WelcomeCard = () => {
           height={454}
           className="hidden md:block justify-center border-8 border-lime-500 rounded-full"
           alt="Screenshots of the dashboard project showing desktop version"
+          priority={true}
         />
       </div>
     </div>
