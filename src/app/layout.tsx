@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className={`${libreBaskerville.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200 `}
       >
-        <main className="w-full mx-auto   md:p-2">
+        <main className="w-full mx-auto   md:p-1">
           
           <Header />
           {children}

@@ -4,35 +4,35 @@ import { licorice, rowdies } from "../fonts";
 const WelcomeCard = () => {
   return (
     <div
-      className={`${rowdies.className} flex flex-row w w-full bg-lime-950  md:bg-gradient-to-b md:from-lime-950 md:to-lime-600      h-2/4 `}
+      className={`${rowdies.className} flex flex-row w-full bg-lime-950  bg-gradient-to-b from-lime-950 to-lime-700 h-screen  lg:h-2/4 `}
     >
-      <div className="md:basis-1/2  grid justify-items-end ">
-        <div></div>
-        <h1 className=" text-2xl font-bold lg:text-4xl text-center uppercase  text-white tracking-wide ml-12 m-4 mr-8 lg:ml-24 md:mt-24">
+      <div className="lg:basis-1/2  lg:grid lg:justify-items-end ">
+        <h1 className=" h-max text-2xl font-bold lg:text-4xl text-center uppercase  text-white  tracking-wide  lg:ml-24 lg:mt-24 py-6 px-2">
           Kochasz naturę <br></br>
           <span className="text-primary ">
-           Aktywność na świeżym powietrzu
+            Aktywność na świeżym powietrzu
           </span>{" "}
           <br></br>
           Chcesz odkrywać nowe miejsca ?
         </h1>
-        <p className=" font-normal  md:text-xl  md:text-left uppercase text-justify   tracking-wide md:ml-32 text-primary px-6">
-          to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
+
+        <p className=" h-max  font-normal  mt-12 lg:text-xl  text-justify tracking-wide text-primary px-6 lg:ml-24  ">
+        ...to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
           trasom spacerowym i rowerowym, które czekają na Ciebie w różnych
           zakątkach Polski.
         </p>
         <span
-          className={`${licorice.className} hidden md:block text-xl  md:text-4xl md:leading-normal text-white`}
+          className={`${licorice.className} hidden lg:block text-xl  lg:text-4xl lg:leading-normal text-white`}
         >
           PathPicsTales
         </span>
       </div>
-      <div className="hidden md:basis-1/2 md:grid justify-items-center md:py-16  ">
+      <div className="hidden lg:basis-1/2 lg:grid justify-items-center lg:py-16  ">
         <Image
           src="/mainpageimg/kolo.png"
           width={454}
           height={454}
-          className="hidden md:block justify-center border-8 border-lime-500 rounded-full"
+          className="justify-center border-8 border-lime-500 rounded-full"
           alt="Screenshots of the dashboard project showing desktop version"
           priority={true}
         />
