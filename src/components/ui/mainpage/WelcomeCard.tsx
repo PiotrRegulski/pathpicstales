@@ -17,15 +17,21 @@ const WelcomeCard = () => {
         </h1>
 
         <p className=" h-max  font-normal  mt-12 lg:text-xl  text-justify tracking-wide text-primary px-6 lg:ml-24  ">
-        ...to jesteś we właściwym miejscu. Nasza strona jest poświęcona pięknym
-          trasom spacerowym i rowerowym, które czekają na Ciebie w różnych
-          zakątkach Polski.
+          ...to jesteś we właściwym miejscu. Nasza strona jest poświęcona
+          pięknym trasom spacerowym i rowerowym, które czekają na Ciebie w
+          różnych zakątkach Polski.
         </p>
         <span
           className={`${licorice.className} hidden lg:block text-xl  lg:text-4xl lg:leading-normal text-white`}
         >
           PathPicsTales
         </span>
+        <div className=" grid  gap-5 grid-cols-1 lg:hidden mt-24 mx-4">
+          <button className={`${rowdies.className} text-white  bg-primary lg:leading-normal text-xl  rounded-full px-6 py-6 `}>
+            Zobacz dalej
+          </button>
+          <button className={`${rowdies.className} text-primary bg-white lg:leading-normal text-xl  rounded-full px-6 py-6 `}>Utworz konto</button>
+        </div>
       </div>
       <div className="hidden lg:basis-1/2 lg:grid justify-items-center lg:py-16  ">
         <Image
