@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <WelcomeCard />
-      <CardWithPath />
+      {/* <CardWithPath /> */}
     </main>
   );
 }

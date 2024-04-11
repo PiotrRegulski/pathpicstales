@@ -22,7 +22,7 @@ export default function RootLayout({
           
           <Header />
           {children}
-          <h2>stopka</h2>
+          {/* <h2>stopka</h2> */}
         </main>
       </body>
     </html>
