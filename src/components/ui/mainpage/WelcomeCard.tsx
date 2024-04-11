@@ -33,7 +33,7 @@ const WelcomeCard = () => {
             Zobacz dalej <NextArrow/>
           </button>
           <button
-            className={`${rowdies.className} flex items-center justify-center gap-4 text-primary  bg-white rounded-full px-8 py-2 `}
+            className={`${rowdies.className} flex items-center justify-center gap-4 text-primary  bg-white rounded-full px-8 py-3`}
           >
            Dołącz do nas <UserIcon/>
           </button>
