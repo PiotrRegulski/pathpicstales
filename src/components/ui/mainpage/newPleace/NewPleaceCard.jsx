@@ -9,7 +9,7 @@ const NewPleaceCard = () => {
           Ostatnio dodane miejsca:
         </h3>
 
-        <div  className="flex gap-2 flex-nowrap w-[120%] h-48 lg:h-max">
+        <div  className="flex gap-2 flex-nowrap w-[120%] h-48 lg:h-max overflow-hidden ">
           <div className="flex-none relative w-1/4 h-48 lg:h-96 lg:py-12 shadow-xl shadow-lime-500/50">
             <Image
               src="/NewPleaceImg/zamekwarszawa.png"
