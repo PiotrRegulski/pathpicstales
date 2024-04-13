@@ -30,20 +30,24 @@ const WelcomeCard = () => {
             <ButtonNext>Zacznij teraz</ButtonNext>
           </Link>
         </span>
-        <div className="grid  gap-5 grid-cols-1 sm:grid-cols-2 sm:mt-12 lg:hidden mt-24 mx-2">
-          <Link href="/#NewPleace " >
+        <div className="grid  gap-5 grid-cols-1 sm:grid-cols-2 sm:mt-12 lg:hidden mt-24 mx-2 ">
+          <Link
+            href="/#NewPleace "
+            className=" w-full flex items-center justify-center"
+          >
             <button
-              className={`${rowdies.className} flex items-center justify-center gap-4 text-white  bg-primary  rounded-full px-8 py-2 `}
+              className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-white  bg-primary  rounded-full px-8 py-2 `}
             >
               Zacznij teraz <NextArrow />
             </button>
           </Link>
-
-          <button
-            className={`${rowdies.className} flex items-center justify-center gap-4 text-primary  bg-white rounded-full px-8 py-3`}
-          >
-            Dołącz do nas <UserIcon />
-          </button>
+          <Link href="#" className="w-full flex items-center justify-center">
+            <button
+              className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-primary  bg-white rounded-full px-8 py-3`}
+            >
+              Dołącz do nas <UserIcon />
+            </button>
+          </Link>
         </div>
       </div>
       <div className="hidden lg:basis-1/2 lg:grid justify-items-center lg:py-16  ">
