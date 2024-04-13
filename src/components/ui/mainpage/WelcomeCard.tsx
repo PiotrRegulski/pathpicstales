@@ -6,7 +6,7 @@ import UserIcon from "@/components/icons/UserIcon";
 const WelcomeCard = () => {
   return (
     <div
-      className={`${rowdies.className} flex flex-row w-full bg-lime-950  bg-gradient-to-b from-lime-950 to-lime-700 h-screen  lg:h-2/4 `}
+      className={`${rowdies.className} flex flex-row w-full bg-lime-950  bg-gradient-to-b from-lime-950 to-lime-700 h-screen  lg:h-1/6 `}
     >
       <div className="lg:basis-1/2  lg:grid lg:justify-items-end ">
         <h1 className=" h-max text-2xl font-bold lg:text-4xl text-center uppercase  text-white  tracking-wide  lg:ml-24 lg:mt-24 py-6 px-2">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { licorice, libreBaskerville } from "@/components/ui/fonts";
+import {  libreBaskerville,rowdies } from "@/components/ui/fonts";
 import "./globals.css";
 import Header from "@/components/ui/header/Header";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${libreBaskerville.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200 `}
+        className={`${rowdies.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200 `}
       >
         <main className="w-full mx-auto   md:p-1">
           
