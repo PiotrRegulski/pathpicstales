@@ -14,11 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body
-        className={`${rowdies.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200 overflow-x-hidden `}
+        className={`${rowdies.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200  `}
       >
-        <main className="w-full mx-auto lg:my-[4%]  md:p-1">
+        <main className="w-full mx-auto lg:my-[4%]  md:p-1 overscroll-x-none">
           
           <Header />
           {children}
