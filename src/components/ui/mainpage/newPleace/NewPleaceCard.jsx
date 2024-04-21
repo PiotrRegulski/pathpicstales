@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import CardWithPath from "../newPaths/CardWithPath";
 const images = [
   { id: 1, path: "niegocingiżycko.png" },
   { id: 2, path: "wisławarszawa.png" },
@@ -13,7 +14,7 @@ const images = [
 const NewPleaceCard = () => {
   return (
     <section id="NewPleace" className="h-screen  overscroll-x-none">
-      <div className="flex flex-col gap-2   h-[100%]">
+      <div className="flex flex-col gap-2  ">
         <h3 className="text-black bg-white text-center  font-semibold text-xl py-4 px-4 tracking-wide rounded-xl">
           Ostatnio dodane miejsca
         </h3>
@@ -33,6 +34,8 @@ const NewPleaceCard = () => {
           </div>
         </div>
       </div>
+      <CardWithPath/>
+
     </section>
   );
 };
