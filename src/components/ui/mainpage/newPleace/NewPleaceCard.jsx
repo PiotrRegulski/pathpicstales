@@ -13,7 +13,7 @@ const images = [
 ];
 const NewPleaceCard = () => {
   return (
-    <section id="NewPleace" className="h-screen  overscroll-x-none">
+    <section id="NewPleace" className="h-screen  overscroll-x-none lg:mx-10">
       <div className="flex flex-col gap-2  ">
         <h3 className="text-black bg-white text-center  font-semibold text-xl py-4 px-4 tracking-wide rounded-xl">
           Ostatnio dodane miejsca

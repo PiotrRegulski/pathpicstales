@@ -18,10 +18,11 @@ export default function RootLayout({
       <body
         className={`${rowdies.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200  `}
       >
-        <main className="w-full mx-auto lg:my-[4%]  md:p-1 overscroll-x-none">
+        <main className="w-full mx-auto  md:p-1 overscroll-x-none">
           
           <Header />
-          {children}
+         {children}
+          
           {/* <h2>stopka</h2> */}
         </main>
       </body>

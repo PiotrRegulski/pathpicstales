@@ -8,9 +8,9 @@ type PathCardProps = {
 };
 const PathCard: React.FC<PathCardProps> = (props) => {
   return (
-    <div className="flex flex-col items-center justify-between h-96 mb-2 shadow-xl shadow-lime-700/50">
+    <div className="flex flex-col items-center justify-between h-96 mb-2 shadow-xl shadow-lime-700/50 py-4 ">
       <div className="relative w-full ">
-        <div className="absolute -z-10 w-full h-96 px-2 ">
+        <div className="absolute -z-10 w-full h-96 px-2 py-1 ">
           <Image
             src={props.src}
             alt="bacground image"

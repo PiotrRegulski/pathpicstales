@@ -8,7 +8,7 @@ import Link from "next/link";
 const WelcomeCard = () => {
   return (
     <div
-      className={`${rowdies.className} flex flex-row w-full mb-2 lg:mb-[6%] bg-lime-950  bg-gradient-to-b from-lime-950 to-lime-700 h-screen  lg:h-1/6 `}
+      className={`${rowdies.className} flex flex-row w-full mb-2 lg:mb-[6%] bg-lime-950  bg-gradient-to-b from-lime-950 to-lime-700 h-screen  lg:h-1/6  `}
     >
       <div className="lg:basis-1/2  lg:grid lg:justify-items-end ">
         <h1 className=" h-max text-2xl font-bold lg:text-4xl text-center uppercase  text-white  tracking-wide  lg:ml-24 lg:mt-24 py-6 px-2">
@@ -41,7 +41,7 @@ const WelcomeCard = () => {
               Zacznij teraz <NextArrow />
             </button>
           </Link>
-          <Link href="#" className="w-full flex items-center justify-center">
+          <Link href="/login" className="w-full flex items-center justify-center">
             <button
               className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-primary  bg-white rounded-full px-8 py-3`}
             >
