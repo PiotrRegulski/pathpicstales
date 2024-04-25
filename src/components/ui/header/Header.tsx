@@ -20,7 +20,8 @@ const Header = () => {
         <Link href={""}>Aktualności</Link>
         <Link href={""}>O nas</Link>
         <Link href={""}>Kontakt</Link>
-        <Link href='/login' className={`${rowdies.className}  bg-primary lg:leading-normal text-xl  rounded-full px-6 py-3`} >Login</Link>
+        <Link href='/register' className={`${rowdies.className} text-xl gap-4 text-primary bg-white rounded-full px-4 py-3 `} >Dołącz</Link>
+        <Link href='/login' className={`${rowdies.className}  bg-primary lg:leading-normal text-xl  rounded-full px-6 py-3`} >Zaloguj Się</Link>
       </nav>
       <nav className="block lg:hidden"><button className="p-2 text-white px-4 py-2"><Hamburger/></button></nav>
     </header>

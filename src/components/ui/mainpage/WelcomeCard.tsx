@@ -36,7 +36,7 @@ const WelcomeCard = () => {
             className=" w-full flex items-center justify-center"
           >
             <button
-              className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-white  bg-primary  rounded-full px-8 py-2 `}
+              className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-white  bg-primary  rounded-full px-8 py-2 mt-12 `}
             >
               Zacznij teraz <NextArrow />
             </button>
