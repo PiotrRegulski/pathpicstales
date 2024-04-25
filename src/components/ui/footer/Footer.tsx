@@ -1,16 +1,24 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <footer className=" dark:bg-white bg-zinc-900  border-t-2 mt-auto ">
-      <div className=" mx-auto  text-center px-4 py-3 ">
-        <p className="text-muted">
-          © 2024 PathPicsTales. Wszelkie prawa zastrzeżone.
-        </p>
+    <footer className="bg-gray-200 text-center p-4 w-full">
+      <div className="container mx-auto">
+        <p className="text-gray-700 mb-2">© 2024 PathPicsTales. Wszelkie prawa zastrzeżone.</p>
         <address>
-          Skontaktuj się z nami: <a href="mailto:bulu901@gmail.com">bulu901@gmail.com</a>
+          <a href="mailto:contact@pathpicstales.com" className="text-blue-600 hover:text-blue-800 transition duration-300">
+            contact@pathpicstales.com
+          </a>
         </address>
+        <div className="flex justify-center mt-2">
+          <Link href="/privacy-policy" className='"text-blue-600 hover:text-blue-800 transition duration-300 mx-2"'>
+           Polityka prywatności
+          </Link>
+          <Link href="/terms" className="text-blue-600 hover:text-blue-800 transition duration-300 mx-2">
+            Regulamin
+          </Link>
+        </div>
       </div>
     </footer>
   );
