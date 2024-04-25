@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import {  libreBaskerville,rowdies } from "@/components/ui/fonts";
+import { libreBaskerville, rowdies } from "@/components/ui/fonts";
 import "./globals.css";
 import Header from "@/components/ui/header/Header";
+import Footer from "@/components/ui/footer/Footer";
 
 export const metadata: Metadata = {
   title: "PathPicsTales",
@@ -16,16 +17,16 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${rowdies.className} antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200  `}
-      >
-        <main className="w-full mx-auto  md:p-1 overscroll-x-none">
-          
-          <Header />
-         {children}
-          
-          {/* <h2>stopka</h2> */}
+        className={`${rowdies.className}  antialiased bg-gradient-to-r from-lime-200 via-white to-lime-200 `}>
+        <Header />
+          <main className="min-h-screen mb-10">
+          {children}
         </main>
+        <Footer />
       </body>
+     
+   
+     
     </html>
   );
 }

@@ -13,7 +13,7 @@ const images = [
 ];
 const NewPleaceCard = () => {
   return (
-    <section id="NewPleace" className="h-screen  overscroll-x-none lg:mx-10">
+    <section id="NewPleace" className=" overscroll-x-none lg:mx-10">
       <div className="flex flex-col gap-2  ">
         <h3 className="text-black bg-white text-center  font-semibold text-xl py-4 px-4 tracking-wide rounded-xl">
           Ostatnio dodane miejsca
@@ -23,7 +23,7 @@ const NewPleaceCard = () => {
           <div className=" flex gap-2  lg:w-1/4 h-84 lg:h-96 lg:py-12 ">
             {images.map(({ id, path }) => (
               <Image
-              className='shadow-xl shadow-lime-700/50  hover:shadow-primary  hover:brightness-50'
+                className="shadow-xl shadow-lime-700/50  hover:shadow-primary  hover:brightness-50"
                 key={id}
                 src={`/NewPleaceImg/${path}`}
                 alt={`Image ${id}`}
@@ -34,8 +34,9 @@ const NewPleaceCard = () => {
           </div>
         </div>
       </div>
-      <CardWithPath/>
-
+      <div>
+        <CardWithPath />
+      </div>
     </section>
   );
 };
