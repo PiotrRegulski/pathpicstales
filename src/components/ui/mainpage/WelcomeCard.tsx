@@ -41,7 +41,7 @@ const WelcomeCard = () => {
               Zacznij teraz <NextArrow />
             </button>
           </Link>
-          <Link href="/login" className="w-full flex items-center justify-center">
+          <Link href="/register" className="w-full flex items-center justify-center">
             <button
               className={`${rowdies.className} flex items-center justify-center gap-4 w-[90%] text-primary  bg-white rounded-full px-8 py-3`}
             >
