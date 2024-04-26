@@ -16,12 +16,12 @@ const Header = () => {
       <nav
         className={`${licorice.className} hidden lg:flex gap-8 text-2xl text-white lg:text-4xl lg:leading-normal p-4 tracking-widest `}
       >
-        <Link href={""}>Home</Link>
+        
         <Link href={""}>Aktualności</Link>
         <Link href={""}>O nas</Link>
         <Link href={""}>Kontakt</Link>
-        <Link href='/register' className={`${rowdies.className} text-xl gap-4 text-primary bg-white rounded-full px-4 py-3 `} >Dołącz</Link>
-        <Link href='/login' className={`${rowdies.className}  bg-primary lg:leading-normal text-xl  rounded-full px-6 py-3`} >Zaloguj Się</Link>
+        <Link href='/register' className={`${rowdies.className} text-xl gap-4 text-primary bg-white hover:text-white hover:bg-primary rounded-full px-6 py-3 `} >Dołącz</Link>
+        <Link href='/login' className={`${rowdies.className}  bg-primary hover:bg-white hover:text-primary lg:leading-normal text-xl  rounded-full px-6 py-3`} >Zaloguj Się</Link>
       </nav>
       <nav className="block lg:hidden"><button className="p-2 text-white px-4 py-2"><Hamburger/></button></nav>
     </header>
