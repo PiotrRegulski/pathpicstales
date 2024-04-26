@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-200 text-center p-4 w-full">
+    <footer className="bg-lime-200 text-center p-4 w-full">
       <div className="container mx-auto">
         <p className="text-gray-700 mb-2">© 2024 PathPicsTales. Wszelkie prawa zastrzeżone.</p>
         <address>
