@@ -24,9 +24,10 @@ const Register = () => {
           </ul>
         </div>
         <form className="flex flex-col bg-lime-300 items-center border-4 border-primary rounded-xl py-4 px-4 mt-10">
-          <input type="text" className="my-2 text-xl rounded-xl pl-2 " placeholder="  Email" required />
-          <input type="password" className="text-xl rounded-xl pl-2" placeholder="  password" required />
-          <button type="submit" className=" flex items-center justify-center text-xl gap-4 text-primary bg-white rounded-full px-4 py-3 mx-2 my-4">Zarejestruj się Teraz</button>
+        <input type="text" className=" text-xl rounded-xl pl-2 " placeholder="nazwa użytkownika" required />
+          <input type="text" className="my-5 text-xl rounded-xl pl-2 " placeholder="email" required />
+          <input type="password" className="text-xl rounded-xl pl-2" placeholder="hasło" required />
+          <button type="submit" className=" flex items-center justify-center text-xl gap-4 text-primary bg-white rounded-full hover:text-white hover:bg-primary px-4 py-3 mx-2 my-4">Stwórz profil</button>
         </form>
         <div className="flex flex-col bg-lime-300 items-center border-4 border-primary rounded-xl py-4 px-4 mt-10"><Link href="/">Masz już konto Zaloguj się</Link></div>
         
